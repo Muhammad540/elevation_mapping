@@ -1,0 +1,5 @@
+# Noiseless ground truth measurements
+elevation_mapping:
+  ros__parameters:
+    sensor_processor:
+      type: perfect

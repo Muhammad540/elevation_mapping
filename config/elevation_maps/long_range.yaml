@@ -1,0 +1,27 @@
+elevation_mapping:
+  ros__parameters:
+    min_update_rate: 1.0 #5.0
+    time_tolerance: 0.5
+    sensor_processor/ignore_points_above: 0.4
+    robot_motion_map_update/covariance_scale_translation_x: 0.0
+    robot_motion_map_update/covariance_scale_translation_y: 0.0
+    robot_motion_map_update/covariance_scale_translation_z: 0.0
+    robot_motion_map_update/covariance_scale_rotation_x: 0.0
+    robot_motion_map_update/covariance_scale_rotation_y: 0.0
+    robot_motion_map_update/covariance_scale_rotation_z: 0.0
+
+    length_in_x: 10.0
+    length_in_y: 10.0
+    position_x: 0.0
+    position_y: 0.0
+    resolution: 0.5 #0.01
+    min_variance: 0.0001
+    max_variance: 0.05
+    mahalanobis_distance_threshold: 2.5
+    multi_height_noise: 0.01
+    fused_map_publishing_rate: 5.0
+    enable_skip_lower_points: true
+    scanning_duration: 0.01
+    remove_penetrated_points_rate: 5.0
+    visibility_cleanup_rate: 10.0
+    enable_continuous_cleanup: false
