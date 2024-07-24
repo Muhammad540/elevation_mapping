@@ -17,6 +17,7 @@ Port TODO list:
 
 Known Issues:
 - The current ROS2 interpretation of filter chain causes issues with parameter redeclaration when using more than 1 postprocessing thread.
+- robot_pose_with_covariance_topic: directly take a [nav_msgs/Odometry] msg topic not a [geometry_msgs/PoseWithCovarianceStamped.msg]
 
 Dependencies:
 - [grid_map](https://github.com/ANYbotics/grid_map/tree/humble) - humble branch 
